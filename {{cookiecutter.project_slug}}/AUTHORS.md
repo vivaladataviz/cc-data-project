@@ -1,7 +1,9 @@
 # Authors
 
 ## Authors
-* {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
+{% for foo in cookiecutter.authors.split(",") %}
+* {{ foo.replace(" ", "") }} - <{{ cookiecutter.emails.split(",")[loop.index - 1].replace(" ", "") }}>
+{% endfor %}
 
 ## Project Contributors
 
