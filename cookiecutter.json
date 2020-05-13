@@ -1,9 +1,11 @@
 {
-    "full_name": "Sergio Sanchez",
-    "email": "ssanchez@alluma.org",
+    "full_name": "YOUR NAME",
+    "email": "youremail@yourorg.com",
     "project_name": "Name of project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
-    "project_short_description": "A short description of your project",
+    "project_short_description": "A short description of your project - dont use quotes",
+    "github_user_or_org": "vivaladataviz",
+    "github_repo": "repo_name",
     "date": "{% now 'local' %}",
     "_extensions": ["jinja2_time.TimeExtension"]
 }
